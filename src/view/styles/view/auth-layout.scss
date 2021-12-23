@@ -1,0 +1,154 @@
+@use "variable";
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap");
+
+.auth-page {
+  width: 100vw;
+  height: 100vh;
+
+  @media only screen and (max-height: 768px) {
+    height: auto;
+    overflow: visible;
+  }
+}
+.logo__box {
+  position: relative;
+  padding: 5px;
+  margin: 20px;
+  left: 600px;
+}
+
+h1 {
+  font-family: Mulish;
+  font-size: 48px;
+  line-height: 56px;
+  width: max-content;
+  text-align: center;
+  letter-spacing: 0.015em;
+  position: relative;
+  left: 430px;
+  right: 15.42%;
+  top: 50px;
+  bottom: 70.46%;
+}
+
+.inputuser {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 30px;
+
+  margin: auto;
+  position: absolute;
+  left: 350px;
+  right: 11.2%;
+  top: 350px;
+  bottom: 55.37%;
+}
+.inputuser INPUT {
+  width: 260px;
+}
+.inputpass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  font-size: 18px;
+  position: relative;
+  left: 95px;
+  right: 11.2%;
+  top: 170px;
+  bottom: 45.46%;
+}
+.inputpass INPUT {
+  width: 260px;
+}
+.link-button {
+  position: relative;
+  top: 130px;
+  left: 280px;
+}
+.button-center__box BUTTON {
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+
+  position: relative;
+  left: 30%;
+  right: 11.2%;
+  top: 150px;
+  bottom: 10%;
+
+  /* Gradient */
+
+  background: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+  border-radius: 8px;
+}
+.button-center__box BUTTON:hover {
+  background-color: #ff5400;
+}
+
+.button-center__box2 BUTTON {
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+
+  position: relative;
+  left: 30%;
+  right: 11.2%;
+  top: 180px;
+  bottom: 10%;
+
+  /* Gradient */
+
+  background: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+  border-radius: 8px;
+}
+.button-center__box2 BUTTON:hover {
+  background-color: #ff5400;
+}
+
+.link-button2 {
+  position: relative;
+  top: 130px;
+  left: 560px;
+  top: 80px;
+  color: orangered;
+  font-size: 14px;
+}
+.inputma {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 18px;
+  position: relative;
+  left: 95px;
+  right: 11.2%;
+  top: 140px;
+  bottom: 45.46%;
+}
+.inputma INPUT {
+  width: 305px;
+}
+
+.forgot-password-form h1 {
+  font-family: Mulish;
+  font-size: 48px;
+  line-height: 56px;
+  width: max-content;
+  text-align: center;
+  letter-spacing: 0.015em;
+  position: relative;
+  left: 370px;
+  right: 15.42%;
+  top: 50px;
+  bottom: 70.46%;
+}
