@@ -18,3 +18,9 @@ export const routerLogin: IRouter = {
     },
   ],
 };
+
+export const routerdardboard = {
+  path: "/Dardboard",
+  loader: import("@view/Dardboard/dardboard"),
+  exact: true,
+};

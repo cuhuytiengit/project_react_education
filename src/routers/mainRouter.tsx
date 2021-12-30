@@ -3,13 +3,13 @@ import { ReactNode } from "react";
 
 import { routerPageError } from "@view/PageError/router";
 import { routerLogin, routerMainPublicPage } from "@view/Login/routerLogin";
+import { routerdardboard } from "@view/Login/routerLogin";
 import { AppstoreOutlined } from "@ant-design/icons";
 import { IRouter } from "./interface";
-import {routerHome} from '@view/Home/router'
+import { routerHome } from "@view/Home/router";
+import { routerDardboard } from "@view/Dardboard/routerDardboard";
 
-export const privatePage: IRouter[] = [
-  routerHome,
-];
+export const privatePage: IRouter[] = [routerHome];
 
 export const publicPage: IRouter[] = [
   routerMainPublicPage,
@@ -29,5 +29,6 @@ export const publicPage: IRouter[] = [
     loader: import("@view/login/ResetPass"),
     exact: true,
   },
+  routerdardboard,
   routerPageError,
 ];
